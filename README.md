@@ -1,5 +1,4 @@
 # ExamDiaryApp
-my first app
 
 this app is personally designed to those who are preparing or prepare for 
 govt sector exams,entrance eams and any other kind of exam.
