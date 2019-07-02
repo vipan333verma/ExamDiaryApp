@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    tools:context=".NoteAddActivity">
+
+    <EditText
+        android:id="@+id/addnotes"
+        android:layout_width="342dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_marginBottom="401dp"
+        android:background="@drawable/edbg"
+        android:ems="10"
+        android:gravity="start|center"
+        android:hint="Which Exam"
+        android:inputType="text"
+        android:maxLength="20"
+        android:paddingLeft="20dp"
+        android:textAlignment="viewStart"
+        android:textColor="#881616"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="135dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginRight="135dp"
+        android:background="@drawable/buttonshape"
+        android:text="add"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:textStyle="bold|normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/examdate" />
+
+    <Button
+        android:id="@+id/examdate"
+        android:layout_width="261dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginRight="75dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttonshape"
+        android:text="Choose Exam date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addnotes" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
